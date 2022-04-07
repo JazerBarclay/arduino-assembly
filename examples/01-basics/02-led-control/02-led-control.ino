@@ -5,13 +5,13 @@
  * the data direction register and port register.
  * 
  * The first register we change is the Data Direction Register which
- * sets a pin as either input or output (like the pinMode() function)
+ * sets a pin as either input or output (like the pinMode() function).
  * 
  * The second register is the PORT register which outputs either a LOW
- * or HIGH signal for the associated pin (like the digitalWrite() function)
+ * or HIGH signal for the associated pin (like the digitalWrite() function).
  * 
  * We use the Set Bit in I/O register opcode SBI to alter these registers
- * that exists in I/O memory space
+ * that exists in I/O memory space.
  * 
  * Give it a try and try changing other bits in the ports!
  * 

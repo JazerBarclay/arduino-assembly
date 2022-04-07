@@ -17,12 +17,12 @@
 
 ; Assembly version of setup() function
 setup:
-          ; The next line is like "pinMode(13, OUTPUT)"
+          ; The next line is like "pinMode(13, OUTPUT);"
           sbi   DDRB,7       ; Set bit 7 in data direction port b to 1
           ret                ; Return
 
 ; Assembly version of loop() function
 loop:
-          ; The next line is like "digitalWrite(13, HIGH)"
+          ; The next line is like "digitalWrite(13, HIGH);"
           sbi   PORTB,7      ; Set bit 7 in port b to 1
           ret                ; Return (to beginning of loop)
